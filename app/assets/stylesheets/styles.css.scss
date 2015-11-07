@@ -1,5 +1,5 @@
 html { 
-  background:asset-data-url("cover-photo.jpg") no-repeat center center fixed; 
+  background:asset-data-url("cover-photo.jpg") no-repeat top center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -12,4 +12,9 @@ body{
 h1{
 	margin:0;
 	font-size: 3em;
+}
+h3{
+	margin-top: 0;
+  margin-bottom: 0;
+  padding-top: .2em;
 }
