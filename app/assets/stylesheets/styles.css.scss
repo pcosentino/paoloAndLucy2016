@@ -1,20 +1,45 @@
-html { 
-  background:asset-data-url("cover-photo.jpg") no-repeat top center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#header{
+	ul{
+		font-family:'Amatic SC', sans-serif;
+		padding-top:1em;
+		padding-bottom:1em;
+		li{
+			list-style: none;
+			display: inline-block;
+			font-size: 1.8em;
+			text-align: center;
+		}
+		.logo{
+			background:asset-data-url("pl-logo.png") no-repeat;
+			// display: inline-block;
+			height: 196px;
+			// width: 196px;
+			// position: fixed;
+			top:.5em; 
+		}
+		.spacer{
+			width:180px;
+		}
+	}
 }
-body{
-	font-family: 'Amatic SC', cursive; 
-	text-align: center;
+
+@media screen and (max-width: 530px) {
+	#header{
+		ul{
+	    padding-top: 1em;
+	    padding-bottom: 0em;
+			li{
+				font-size: 1.3em;
+			}
+		}
+	}
 }
-h1{
-	margin:0;
-	font-size: 3em;
-}
-h3{
-	margin-top: 0;
-  margin-bottom: 0;
-  padding-top: .2em;
+@media screen and (max-width: 430px) {
+	#header{
+		ul{
+			li{
+				font-size: 1em;
+			}
+		}
+	}
 }
