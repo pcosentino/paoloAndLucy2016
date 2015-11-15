@@ -8,7 +8,10 @@ Bundler.require(*Rails.groups)
 
 module PaoloAndLucy2016
   class Application < Rails::Application
-    config.assets.paths << "#{Rails}/vendor/assets/fonts"
+    config.assets.enabled = true  
+    config.assets.paths << "#{Rails.root}/app/assets/fonts" 
+    config.assets.precompile += %w( .svg .eot .woff .ttf )
+    
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
