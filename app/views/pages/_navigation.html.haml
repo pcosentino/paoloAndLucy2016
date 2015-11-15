@@ -1,8 +1,21 @@
 #navigation
-	.container
-		.row
-			%ul.col-xs-12
-				%li.col-xs-3 Our Story
-				%li.col-xs-3 Wedding Info
-				%li.col-xs-3 Bridal Crew
-				%li.col-xs-3 Registry
+	%nav.navbar.navbar-inverse.navbar-static-top{:role => "navigation"}
+		.container
+			.navbar-header
+				%button.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+					%span.sr-only Toggle navigation
+					%span.icon-bar
+					%span.icon-bar
+					%span.icon-bar
+			/ Collect the nav links, forms, and other content for toggling
+			#bs-example-navbar-collapse-1.collapse.navbar-collapse
+				.row
+					%ul.nav.navbar-nav.col-sm-12
+						%li.col-xs-12.col-sm-3
+							%a{:href => "#"} Our Story
+						%li.col-xs-12.col-sm-3
+							%a{:href => "#"} Wedding Info
+						%li.col-xs-12.col-sm-3
+							%a{:href => "#"} Bridal Crew
+						%li.col-xs-12.col-sm-3
+							%a{:href => "#"} Registry

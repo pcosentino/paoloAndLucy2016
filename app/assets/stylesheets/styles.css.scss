@@ -5,12 +5,10 @@ body{
 
 #navigation{
 	position: fixed;
-	z-index: 1;
+	z-index: 2;
 	background: #fff;
 	width: 100%;
 	ul{
-		padding-top:1em;
-		padding-bottom:1em;
 		li{
 			list-style: none;
 			display: inline-block;
@@ -26,12 +24,56 @@ body{
 		}
 	}
 }
+.navbar, .navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+	background:#fff;
+	color:#000;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+	color:#ffffff;
+	background:#999999;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #999999;
+}
+.navbar-inverse .navbar-toggle {
+    background: #999999;
+    border-color: #999999;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	padding: 30px 25px 33px 25px;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+	background-color: #999999;
+	transition: 0.2s all linear;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+.carousel .item img{
+   width: auto;
+   height: 100vh;
+   min-width: 100%;
+   background-size: cover;
+}
+.carousel-inner>.item>img{
+	max-width:initial;
+}
 
 #countdown{
   text-align:center;
   font-size:3em;
   font-weight:bold;
-  border-bottom:1px solid red;
 }
 
 #ourstory{
@@ -48,23 +90,72 @@ body{
 
 
 ////////////// MEDIA QUERIES //////////////
-@media screen and (max-width: 530px) {
+@media screen and (min-width: 1499px) {
+	.carousel .item img{
+		border:2px solid red;
+		background-position: initial;
+	}
+}	
+@media screen and (max-width: 1100px) {
+	.carousel .item img{
+		width:100%;
+		height: initial;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
 	#navigation{
-		ul{
-	    padding-top: 1em;
-	    padding-bottom: 0em;
-			li{
-				font-size: 1.3em;
-			}
+		ul.navbar-nav{
+			margin-top:0;
+			margin-bottom:0;
 		}
+		.navbar-inverse .navbar-nav > li > a{
+  	  padding: 20px;
+    	font-size: 1.5em;
+		}
+		.navbar-inverse .navbar-nav > li {
+			padding-right:0;
+		}	
+	}
+	#countdown{
+		font-size: 2.5em;
+		h1{
+			font-weight: bold;
+			margin-top:0;
+			margin-bottom:-10px;
+		}
+	}
+	.carousel-indicators{
+		z-index:1;
 	}
 }
 @media screen and (max-width: 430px) {
-	#navigation{
-		ul{
-			li{
-				font-size: 1em;
-			}
-		}
+	.carousel-indicators{
+		bottom:0;
 	}
+	.carousel-indicators li{
+		width: 5px;
+    height: 5px; 
+	}
+	.carousel-indicators li.active{
+		width: 7px;
+    height: 7px;
+	}
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
