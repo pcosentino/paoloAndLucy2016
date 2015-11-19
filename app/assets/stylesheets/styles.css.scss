@@ -53,17 +53,6 @@ body{
 	height: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 a {
   color: #f46830; 
   &:hover {
@@ -75,11 +64,6 @@ a {
             transition: all .1s ease-in-out;
   }
   text-decoration: none;}
-
-
-
-
-
 
 ul li a {
   display: block;
@@ -130,11 +114,22 @@ ul li a {
   text-align:center;
   font-size:3em;
   font-weight:bold;
+  padding:.5em 0;
 }
 
-#ourstory{
+#section1{
 	background:asset-data-url("bgwood2.jpg") repeat;
 	color:#ffffff;
+	h1{
+		font-size: 3em;
+	}
+	h3{
+		text-decoration: underline;
+	}
+	p{
+		font-size: 2em;
+		text-shadow: 4px 4px 5px #000000;
+	}
 }
 
 

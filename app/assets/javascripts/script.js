@@ -24,7 +24,7 @@ function scrollNav() {
     $('.'+theClass).parent('li').addClass('active-link');
     //Animate
     $('html, body').stop().animate({
-        scrollTop: $( $(this).attr('href') ).offset().top - 85
+        scrollTop: $( $(this).attr('href') ).offset().top - 83
     }, 400);
     return false;
   });
