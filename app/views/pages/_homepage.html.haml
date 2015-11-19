@@ -17,24 +17,24 @@
 		.carousel-inner{:role => "listbox"}
 			.item.slide1.active
 				= image_tag("slide1.jpg")
-			/ .item.slide2
-			/ 	= image_tag("slide2.jpg")
-			/ .item.slide3
-			/ 	= image_tag("slide3.jpg")
-			/ .item.slide4
-			/ 	= image_tag("slide4.jpg")
-			/ .item.slide5
-			/ 	= image_tag("slide5.jpg")
-			/ .item.slide6
-			/ 	= image_tag("slide6.jpg")
-			/ .item.slide7
-			/ 	= image_tag("slide7.jpg")
-			/ .item.slide8
-			/ 	= image_tag("slide8.jpg")
-			/ .item.slide9
-			/ 	= image_tag("slide9.jpg")
-			/ .item.slide10
-			/ 	= image_tag("slide10.jpg")
+			.item.slide2
+				= image_tag("slide2.jpg")
+			.item.slide3
+				= image_tag("slide3.jpg")
+			.item.slide4
+				= image_tag("slide4.jpg")
+			.item.slide5
+				= image_tag("slide5.jpg")
+			.item.slide6
+				= image_tag("slide6.jpg")
+			.item.slide7
+				= image_tag("slide7.jpg")
+			.item.slide8
+				= image_tag("slide8.jpg")
+			.item.slide9
+				= image_tag("slide9.jpg")
+			.item.slide10
+				= image_tag("slide10.jpg")
 		/ Left and right controls
 		%a.left.carousel-control{"data-slide" => "prev", :href => "#myCarousel", :role => "button"}
 			%span.glyphicon.glyphicon-chevron-left{"aria-hidden" => "true"}
@@ -42,3 +42,8 @@
 		%a.right.carousel-control{"data-slide" => "next", :href => "#myCarousel", :role => "button"}
 			%span.glyphicon.glyphicon-chevron-right{"aria-hidden" => "true"}
 			%span.sr-only Next
+		#carouselButtons
+			%button#playButton.btn.btn-default.btn-xs{:type => "button"}
+				%span.glyphicon.glyphicon-play
+			%button#pauseButton.btn.btn-default.btn-xs{:type => "button"}
+				%span.glyphicon.glyphicon-pause

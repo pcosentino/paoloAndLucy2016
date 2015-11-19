@@ -1,4 +1,44 @@
 $(document).ready(function() {
+  $('#myCarousel').carousel({
+    interval:10000,
+    pause: "false"
+  });
+  $('#playButton').click(function () {
+      $('#myCarousel').carousel('cycle');
+  });
+  $('#pauseButton').click(function () {
+      $('#myCarousel').carousel('pause');
+  });
+
+
+// ------------------------------
+// http://twitter.com/mattsince87
+// ------------------------------
+
+function scrollNav() {
+  $('.nav a').click(function(){  
+    //Toggle Class
+    $(".active-link").removeClass("active-link");      
+    $(this).closest('li').addClass("active-link");
+    var theClass = $(this).attr("class");
+    $('.'+theClass).parent('li').addClass('active-link');
+    //Animate
+    $('html, body').stop().animate({
+        scrollTop: $( $(this).attr('href') ).offset().top - 85
+    }, 400);
+    return false;
+  });
+  $('.scrollTop a').scrollTop();
+}
+scrollNav();
+
+
+
+
+
+
+
+
 	var CDown = function() {
 	this.state=0;// if initialized
 	this.counts=[];// array holding countdown date objects and id to print to {d:new Date(2013,11,18,18,54,36), id:"countbox1"}

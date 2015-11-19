@@ -60,6 +60,58 @@ body{
 
 
 
+
+
+
+
+a {
+  color: #f46830; 
+  &:hover {
+    color: #4fb3e8;
+    -webkit-transition: all .1s ease-in-out;
+       -moz-transition: all .1s ease-in-out;
+        -ms-transition: all .1s ease-in-out;
+         -o-transition: all .1s ease-in-out;
+            transition: all .1s ease-in-out;
+  }
+  text-decoration: none;}
+
+
+
+
+
+
+ul li a {
+  display: block;
+  padding: 20px;
+  font-weight: 200;
+  &:hover {
+    color: #fff;
+    background: #e6764e;
+    -webkit-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+         -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+  }
+  color: #fff;
+  text-decoration: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .carousel .item img{
    width: auto;
    height: 100vh;
@@ -69,7 +121,11 @@ body{
 .carousel-inner>.item>img{
 	max-width:initial;
 }
-
+#carouselButtons {
+    margin-left: 100px;
+    position: absolute;
+    bottom: 0px;
+}
 #countdown{
   text-align:center;
   font-size:3em;
@@ -142,7 +198,9 @@ body{
 		width: 7px;
     height: 7px;
 	}
-
+	#countdown{
+		font-size: 2em;
+	}
 }
 
 
