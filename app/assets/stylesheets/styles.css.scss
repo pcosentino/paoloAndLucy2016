@@ -81,13 +81,13 @@ ul li a {
   color: #fff;
   text-decoration: none;}
 
-.slideR{
-	background:asset-data-url("slideR.jpg") no-repeat;
+.slide1{
+	background:asset-data-url("slide1.jpg") no-repeat;
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: bottom;
+  background-position: 0px 30%;
   background-size: cover;
 }
 
@@ -126,7 +126,8 @@ ul li a {
 }
 
 #section1{
-	background:asset-data-url("bgwood2.jpg") repeat;
+	// background:asset-data-url("bgwood2.jpg") repeat;
+	background: gray;
 	color:#ffffff;
 	h1{
 		font-size: 3em;
@@ -157,6 +158,9 @@ ul li a {
 	}
 }	
 @media screen and (max-width: 1100px) {
+	.slide1{
+  	background-position: 85% 30%;
+	}
 	.carousel .item img{
 		width:100%;
 		height: initial;
@@ -165,6 +169,9 @@ ul li a {
 
 
 @media screen and (max-width: 767px) {
+	.slide1{
+  	background-position: 65% 30%;
+	}
 	#navigation{
 		ul.navbar-nav{
 			margin-top:0;
@@ -191,6 +198,9 @@ ul li a {
 	}
 }
 @media screen and (max-width: 430px) {
+	.slide1{
+  	background-position: 65% 90%;
+	}
 	.carousel-indicators{
 		bottom:0;
 	}
