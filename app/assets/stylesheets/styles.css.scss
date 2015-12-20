@@ -86,12 +86,12 @@ ul li a {
   text-decoration: none;}
 
 .slide1{
-	background:asset-data-url("slide1.jpg") no-repeat;
+	background:asset-data-url("slide_1.jpg") no-repeat;
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 0px 30%;
+  background-position: 0px -20%;
   background-size: cover;
 }
 
@@ -167,7 +167,9 @@ ul li a {
 		text-decoration: underline;
 	}
 }
-
+#section3{
+	background:asset-data-url("concrete_seamless.png") repeat;
+}
 
 
 
