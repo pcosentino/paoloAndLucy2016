@@ -1,6 +1,10 @@
 body{
 	font-family:'Amatic SC', sans-serif;
 	text-align: center;
+	p{
+		font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.2em;
+  }
 }
 
 #navigation{
@@ -126,23 +130,43 @@ ul li a {
 }
 
 #section1{
-	// background:asset-data-url("bgwood2.jpg") repeat;
-	background: gray;
-	color:#ffffff;
+	background:asset-data-url("notebook.png") repeat;
+	.col-centered{
+		float: none;
+    margin: 0 auto;
+	}
 	h1{
 		font-size: 3em;
 	}
 	h3{
 		text-decoration: underline;
 	}
-	p{
-		font-size: 2em;
-		text-shadow: 4px 4px 5px #000000;
+	p, em{
+		font-family: 'Didact Gothic', sans-serif;
+		font-size: 1.2em;
+		// text-shadow: 4px 4px 5px #000000;
+	}
+	em{
+		margin:2em 0;
+		display: block;
 	}
 }
 
+#section2{
+	background:asset-data-url("concrete_seamless.png") repeat;
+	padding:2em 0;
+	h1{
+		margin-top:0em;
+		margin-bottom:1em;
 
-
+	}
+	p{
+		margin:0;
+	}
+	.subtitle{
+		text-decoration: underline;
+	}
+}
 
 
 
