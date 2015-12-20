@@ -153,15 +153,19 @@ ul li a {
 }
 
 #section2{
-	background:asset-data-url("concrete_seamless.png") repeat;
+	background:asset-data-url("mocha_grunge.png") repeat;
 	padding:2em 0;
 	h1{
 		margin-top:0em;
 		margin-bottom:1em;
-
+		color:#ffffff;
+	}
+	h2{
+		color:#ffffff;
 	}
 	p{
 		margin:0;
+		color:#ffffff;
 	}
 	.subtitle{
 		text-decoration: underline;
@@ -169,8 +173,22 @@ ul li a {
 }
 #section3{
 	background:asset-data-url("concrete_seamless.png") repeat;
-}
+	padding:2em 0;
+	h1{
+		margin-top:0em;
+		margin-bottom:1em;
 
+	}
+}
+#section4{
+	background:asset-data-url("grey_wash_wall.png") repeat;
+	padding:2em 0;
+	h1{
+		margin-top:0em;
+		margin-bottom:1em;
+
+	}
+}
 
 
 
