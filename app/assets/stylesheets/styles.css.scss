@@ -299,23 +299,24 @@ ul li a {
 	#countdown{
 		font-size: 1.7em;
 	}
-}
-#section1{
-	i.fa.fa-music{
-		font-size:3em;
-		margin:0 2.5%;
+	#section1{
+		i.fa.fa-music{
+			font-size:3em;
+			margin:0 2.5%;
+		}
+	}
+	#section2{
+		i.fa.fa-map-marker{
+	    margin-right: -3.5%;
+	    font-size: 4em;
+	  }
+		a{
+			display: inline-block;
+			width:60%;
+		}
 	}
 }
-#section2{
-	i.fa.fa-map-marker{
-    margin-right: -3.5%;
-    font-size: 4em;
-  }
-	a{
-		display: inline-block;
-		width:60%;
-	}
-}
+
 
 
 
