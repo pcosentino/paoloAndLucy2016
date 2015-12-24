@@ -192,6 +192,20 @@ ul li a {
 	.subtitle{
 		text-decoration: underline;
 	}
+	a{
+		color: #fff;
+    text-decoration: underline;
+    font-size: 1.2em;
+    font-family: 'Didact Gothic', sans-serif;
+    &:hover{
+    	color:#B8DBEC;
+    }
+	}
+	i{
+		color:#B8DBEC;
+		margin-right:1%;
+		font-size: 1.2em;
+	}
 }
 
 //////////////// THE CREW ////////////////
@@ -284,6 +298,22 @@ ul li a {
 	}
 	#countdown{
 		font-size: 1.7em;
+	}
+}
+#section1{
+	i.fa.fa-music{
+		font-size:3em;
+		margin:0 2.5%;
+	}
+}
+#section2{
+	i.fa.fa-map-marker{
+    margin-right: -3.5%;
+    font-size: 4em;
+  }
+	a{
+		display: inline-block;
+		width:60%;
 	}
 }
 
