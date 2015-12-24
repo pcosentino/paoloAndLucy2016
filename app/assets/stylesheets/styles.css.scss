@@ -94,6 +94,20 @@ ul li a {
   background-position: 0px -20%;
   background-size: cover;
 }
+.slide2{
+	background:asset-data-url("slide2.jpg") no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0px -20%;
+  background-size: cover;
+}
+
+
+
+
+#playButton, #pauseButton{display:none;}
 
 
 
@@ -102,12 +116,14 @@ ul li a {
 
 
 
-
-
-
-
-
-
+#myCarousel{
+	.hashtag{
+		color:#ffffff;
+		margin:0;
+		font-size: 2em;
+		text-shadow: 2px 2px 20px #080808;
+	}
+}
 .carousel .item img{
    width: auto;
    height: 100vh;
@@ -214,7 +230,10 @@ ul li a {
 
 @media screen and (max-width: 767px) {
 	.slide1{
-  	background-position: 65% 30%;
+  	width: 100%;
+  	height: 520px;
+  	background-attachment:scroll;
+  	background-position:65% 0;
 	}
 	#navigation{
 		ul.navbar-nav{
@@ -242,9 +261,7 @@ ul li a {
 	}
 }
 @media screen and (max-width: 430px) {
-	.slide1{
-  	background-position: 65% 90%;
-	}
+
 	.carousel-indicators{
 		bottom:0;
 	}

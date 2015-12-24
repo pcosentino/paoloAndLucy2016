@@ -126,7 +126,7 @@ CDown.prototype = {
 window.onload=function(){
 	var cdown = new CDown();
 
-	cdown.add(new Date(2016,8,3,0,0,0), "countbox1");
+	cdown.add(new Date(2016,9,3,0,0,0), "countbox1");
 };
 
 });
