@@ -118,6 +118,7 @@ ul li a {
 
 #myCarousel{
 	.hashtag{
+		text-decoration: underline;
 		color:#ffffff;
 		margin:0;
 		font-size: 2em;
@@ -261,7 +262,6 @@ ul li a {
 	}
 }
 @media screen and (max-width: 430px) {
-
 	.carousel-indicators{
 		bottom:0;
 	}
@@ -274,7 +274,7 @@ ul li a {
     height: 7px;
 	}
 	#countdown{
-		font-size: 2em;
+		font-size: 1.7em;
 	}
 }
 
