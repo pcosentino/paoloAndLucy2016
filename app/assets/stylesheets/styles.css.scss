@@ -7,6 +7,8 @@ body{
   }
 }
 
+
+//////////////// NAVIGATION ////////////////
 #navigation{
 	position: fixed;
 	z-index: 2;
@@ -85,6 +87,8 @@ ul li a {
   color: #fff;
   text-decoration: none;}
 
+
+//////////////// SLIDES ////////////////
 .slide1{
 	background:asset-data-url("slide_1.jpg") no-repeat;
   width: 100vw;
@@ -106,16 +110,8 @@ ul li a {
 
 
 
-
+//////////////// CAROUSEL ////////////////
 #playButton, #pauseButton{display:none;}
-
-
-
-
-
-
-
-
 #myCarousel{
 	.hashtag{
 		text-decoration: underline;
@@ -139,6 +135,12 @@ ul li a {
     position: absolute;
     bottom: 0px;
 }
+.carousel-indicators{
+	z-index:1;
+}
+
+
+//////////////// COUNTDOWN ////////////////
 #countdown{
   text-align:center;
   font-size:3em;
@@ -146,14 +148,17 @@ ul li a {
   padding:.5em 0;
 }
 
+//////////////// OUR STORY ////////////////
 #section1{
 	background:asset-data-url("notebook.png") repeat;
+	padding:2em 0;
 	.col-centered{
 		float: none;
     margin: 0 auto;
 	}
 	h1{
 		font-size: 3em;
+		margin:0;
 	}
 	h3{
 		text-decoration: underline;
@@ -167,39 +172,43 @@ ul li a {
 		margin:2em 0;
 		display: block;
 	}
+	i.fa.fa-music{
+		margin: .9% .5%;
+	}
 }
 
+//////////////// WEDDING INFO ////////////////
 #section2{
-	background:asset-data-url("mocha_grunge.png") repeat;
+	background:asset-data-url("grey_wash_wall.png") repeat;
 	padding:2em 0;
+	color:#ffffff;
 	h1{
 		margin-top:0em;
 		margin-bottom:1em;
-		color:#ffffff;
-	}
-	h2{
-		color:#ffffff;
 	}
 	p{
 		margin:0;
-		color:#ffffff;
 	}
 	.subtitle{
 		text-decoration: underline;
 	}
 }
+
+//////////////// THE CREW ////////////////
 #section3{
-	background:asset-data-url("concrete_seamless.png") repeat;
+	background:asset-data-url("notebook.png") repeat;
 	padding:2em 0;
 	h1{
 		margin-top:0em;
 		margin-bottom:1em;
-
 	}
 }
+
+//////////////// REGISTRY ////////////////
 #section4{
 	background:asset-data-url("grey_wash_wall.png") repeat;
 	padding:2em 0;
+	color:#ffffff;
 	h1{
 		margin-top:0em;
 		margin-bottom:1em;
