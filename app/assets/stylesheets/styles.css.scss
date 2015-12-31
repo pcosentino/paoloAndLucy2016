@@ -243,9 +243,6 @@ ul li a {
 			-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 			}
 		}
-		// .slide1{
-		// 	background:asset-data-url("pic.jpg") no-repeat;
-		// }
 	}
 	#groomsCarousel{
 		.item{
@@ -295,6 +292,10 @@ ul li a {
 		width:100%;
 		height: initial;
 	}
+	#bridesCarousel img, #groomsCarousel img{
+		width: 200px;
+		height: 200px;
+	}
 }
 
 
@@ -329,6 +330,7 @@ ul li a {
 	.carousel-indicators{
 		z-index:1;
 	}
+
 }
 @media screen and (max-width: 430px) {
 	.carousel-indicators{
@@ -361,6 +363,7 @@ ul li a {
 			width:60%;
 		}
 	}
+
 }
 
 
