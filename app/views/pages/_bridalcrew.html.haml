@@ -2,5 +2,128 @@
 	%h1 Bridal Crew
 
 	.container
-		.row
-			%h2 blah blah blah
+		.row.col-sm-12.col-md-6
+			%h2 Bridesmaids
+			#bridesCarousel.carousel.slide{"data-ride" => "carousel"}
+				/ Indicators
+				%ol.carousel-indicators
+					%li.active{"data-slide-to" => "0", "data-target" => "#bridesCarousel"}
+					%li{"data-slide-to" => "1", "data-target" => "#bridesCarousel"}
+					%li{"data-slide-to" => "2", "data-target" => "#bridesCarousel"}
+					%li{"data-slide-to" => "3", "data-target" => "#bridesCarousel"}
+					%li{"data-slide-to" => "4", "data-target" => "#bridesCarousel"}
+					%li{"data-slide-to" => "5", "data-target" => "#bridesCarousel"}
+					%li{"data-slide-to" => "6", "data-target" => "#bridesCarousel"}
+					%li{"data-slide-to" => "7", "data-target" => "#bridesCarousel"}
+					%li{"data-slide-to" => "8", "data-target" => "#bridesCarousel"}
+					%li{"data-slide-to" => "9", "data-target" => "#bridesCarousel"}
+					%li{"data-slide-to" => "10", "data-target" => "#bridesCarousel"}
+					
+				/ Wrapper for slides
+				.carousel-inner{:role => "listbox"}
+					.item.slide1.active
+						%img{:alt => "", :src => "../assets/pic.jpg"}/
+						%h3 Rose Libreri Giovannelli
+						%h4 Sister of the Bride (MOH) 
+						%p Although growing up together was sometimes challenging due to stolen hair products, clothing and makeup, our sibling bond has only become stronger. With a seven year age gap, many still confuse the two of us as twins. (Rose loves it)			
+					.item.slide2
+						%h3 Angela Libreri Guttilla
+						%h4 Sister of the Bride  
+						%p This is text for angela
+					.item.slide3
+						%h3 Margaret Trupiano 
+						%h4 Cousin of the Bride 
+						%p More of a sister than a cousin, Margaret has always been my go-to for laughs, a crying shoulder or a good movie to fall asleep to before it even starts. Besides sharing our closets, we share an amazing relationship with unforgettable life memories that continue to multiple. 
+					.item.slide4
+						%h3 Irma Cosentino Bondi 
+						%h4 Future Sister-In-Law of Bride 
+						%p One of the most fun, loud and intellectual accountants ever encountered, Irma is nothing short of a warm hearted individual. Irma loves no chip manicures, hosting awesome house parties and is uncomfortably good at Cards Against Humanity. 
+					.item.slide5
+						%h3 Laura Cosentino  
+						%h4 Future Sister-In-Law of Bride 
+						%p Laura is the second loudest in the Cosentino household. We share hobbies of revining %i.fa.fa-vine , singing and shopping. Laura has a severe case of cinephilia with the ability to quote any and all movies she's ever watched.  
+					.item.slide6
+						%h3 Amber Kral
+						%h4 Future Sister-In-Law of Bride
+						%p Also known as Puppa, she's a hugger, a snuggler and an amazing fiance to my brother. 
+					.item.slide7
+						%h3 Felicia Keys
+						%p Felicia won the basket weaving championship
+					.item.slide8
+						%h3 Felicia Keys
+						%p Felicia won the basket weaving championship
+					.item.slide9
+						%h3 Felicia Keys
+						%p Felicia won the basket weaving championship
+					.item.slide10
+						%h3 Felicia Keys
+						%p Felicia won the basket weaving championship
+					.item.slide11
+						%h3 Felicia Keys
+						%p Felicia won the basket weaving championship
+
+		//////// GROOMSMEN ////////
+		.row.col-sm-12.col-md-6
+			%h2 Groomsmen
+			#groomsCarousel.carousel.slide{"data-ride" => "carousel"}
+				/ Indicators
+				%ol.carousel-indicators
+					%li.active{"data-slide-to" => "0", "data-target" => "#groomsCarousel"}
+					%li{"data-slide-to" => "1", "data-target" => "#groomsCarousel"}
+					%li{"data-slide-to" => "2", "data-target" => "#groomsCarousel"}
+					%li{"data-slide-to" => "3", "data-target" => "#groomsCarousel"}
+					%li{"data-slide-to" => "4", "data-target" => "#groomsCarousel"}
+					%li{"data-slide-to" => "5", "data-target" => "#groomsCarousel"}
+					%li{"data-slide-to" => "6", "data-target" => "#groomsCarousel"}
+					%li{"data-slide-to" => "7", "data-target" => "#groomsCarousel"}
+					%li{"data-slide-to" => "8", "data-target" => "#groomsCarousel"}
+					%li{"data-slide-to" => "9", "data-target" => "#groomsCarousel"}
+					%li{"data-slide-to" => "10", "data-target" => "#groomsCarousel"}
+					
+				/ Wrapper for slides
+				.carousel-inner{:role => "listbox"}
+					.item.slide1.active
+						%img{:alt => "", :src => "../assets/pic.jpg"}/
+						%h3 Bob Frapples
+						%h4 Relationship
+						%p Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+					.item.slide2
+						%h3 Bob Frapples
+						%h4 Relationship
+						%p Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+					.item.slide3
+						%h3 Bob Frapples
+						%h4 Relationship
+						%p Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+					.item.slide4
+						%h3 Bob Frapples
+						%h4 Relationship
+						%p Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+					.item.slide5
+						%h3 Bob Frapples
+						%h4 Relationship
+						%p Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+					.item.slide6
+						%h3 Bob Frapples
+						%h4 Relationship
+						%p Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+					.item.slide7
+						%h3 Bob Frapples
+						%h4 Relationship
+						%p Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+					.item.slide8
+						%h3 Bob Frapples
+						%h4 Relationship
+						%p Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+					.item.slide9
+						%h3 Bob Frapples
+						%h4 Relationship
+						%p Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+					.item.slide10
+						%h3 Bob Frapples
+						%h4 Relationship
+						%p Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah
+					.item.slide11
+						%h3 Bob Frapples
+						%h4 Relationship
+						%p Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah

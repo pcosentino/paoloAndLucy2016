@@ -3,6 +3,12 @@ $(document).ready(function() {
     interval:10000,
     pause: "false"
   });
+  $('#bridesCarousel').carousel({
+    interval:false,
+  });
+  $('#groomsCarousel').carousel({
+    interval:false,
+  });
   $('#playButton').click(function () {
       $('#myCarousel').carousel('cycle');
   });
