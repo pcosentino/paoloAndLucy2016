@@ -300,11 +300,13 @@ ul li a {
 
 
 @media screen and (max-width: 768px) {
-	.slide1{
-  	width: 100%;
-  	height: 520px;
-  	background-attachment:scroll;
-  	background-position:65% 0;
+	#myCarousel{
+		.slide1{
+	  	width: 100%;
+	  	height: 520px;
+	  	background-attachment:scroll;
+	  	background-position:65% 0;
+		}
 	}
 	#navigation{
 		ul.navbar-nav{
@@ -336,14 +338,14 @@ ul li a {
 	.carousel-indicators{
 		bottom:0;
 	}
-	.carousel-indicators li{
-		width: 5px;
-    height: 5px; 
-	}
-	.carousel-indicators li.active{
-		width: 7px;
-    height: 7px;
-	}
+	// .carousel-indicators li{
+	// 	width: 5px;
+ //    height: 5px; 
+	// }
+	// .carousel-indicators li.active{
+	// 	width: 7px;
+ //    height: 7px;
+	// }
 	#countdown{
 		font-size: 1.7em;
 	}
@@ -363,11 +365,12 @@ ul li a {
 			width:60%;
 		}
 	}
-
 }
-
-
-
+// @media screen and (max-width: 380px) {
+// 	#section3 #bridesCarousel .item, #section3 #groomsCarousel .item{
+// 		height: 500px;
+// 	}
+// }
 
 
 

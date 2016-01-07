@@ -16,6 +16,30 @@ $(document).ready(function() {
       $('#myCarousel').carousel('pause');
   });
 
+	
+
+	$("#myCarousel").swiperight(function() {  
+    $(this).carousel('prev');  
+	  });  
+	$("#myCarousel").swipeleft(function() {  
+		$(this).carousel('next');  
+	}); 
+
+	$("#bridesCarousel").swiperight(function() {  
+    $(this).carousel('prev');  
+	  });  
+	$("#bridesCarousel").swipeleft(function() {  
+		$(this).carousel('next');  
+	});  
+
+	$("#groomsCarousel").swiperight(function() {  
+    $(this).carousel('prev');  
+	  });  
+	$("#groomsCarousel").swipeleft(function() {  
+		$(this).carousel('next');  
+	}); 
+
+
 
 // ------------------------------
 // http://twitter.com/mattsince87
