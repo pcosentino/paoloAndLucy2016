@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('#myCarousel').carousel({
-    interval:10000,
+    interval:false,
     pause: "false"
   });
   $('#bridesCarousel').carousel({
@@ -17,7 +17,7 @@ $(document).ready(function() {
   });
 
 	
-
+// CAROUSEL SWIPES
 	$("#myCarousel").swiperight(function() {  
     $(this).carousel('prev');  
 	  });  
