@@ -46,9 +46,9 @@ $(document).ready(function() {
 // ------------------------------
 
 function scrollNav() {
-  $('.nav a').click(function(){  
+  $('.nav a').click(function(){
     //Toggle Class
-    $(".active-link").removeClass("active-link");      
+    $(".active-link").removeClass("active-link");
     $(this).closest('li').addClass("active-link");
     var theClass = $(this).attr("class");
     $('.'+theClass).parent('li').addClass('active-link');
@@ -57,16 +57,16 @@ function scrollNav() {
         scrollTop: $( $(this).attr('href') ).offset().top - 83
     }, 400);
     return false;
+
   });
   $('.scrollTop a').scrollTop();
 }
 scrollNav();
 
-
-
-
-
-
+$("#bs-example-navbar-collapse-1 li a").click(function(event) {
+  // check if window is small enough so dropdown is created
+	$("#bs-example-navbar-collapse-1").removeClass("in").addClass("collapse");
+});
 
 
 	var CDown = function() {
