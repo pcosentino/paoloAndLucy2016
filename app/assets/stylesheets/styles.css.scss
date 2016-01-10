@@ -10,7 +10,7 @@ body{
 	float: none;
   margin: 0 auto;
 }
-
+a{color:red;}
 //////////////// NAVIGATION ////////////////
 #navigation{
 	position: fixed;
@@ -53,19 +53,24 @@ body{
     background: #999999;
     border-color: #999999;
 }
-
 .navbar-inverse .navbar-nav > li > a {
 	padding: 30px 25px 33px 25px;
 }
-
+.navbar-inverse .navbar-nav > li > a:focus{
+	color:#B8DBEC;
+}
 .navbar-inverse .navbar-nav li a:hover {
 	background-color: #999999;
 	transition: 0.2s all linear;
 	height: 100%;
+	color:#B8DBEC;
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+	background-color:#B8DBEC;
 }
 
 a {
-  color: #f46830; 
+  color: red; 
   &:hover {
     color: #4fb3e8;
     -webkit-transition: all .1s ease-in-out;
@@ -153,8 +158,8 @@ ul li a {
 #playButton, #pauseButton{display:none;}
 #myCarousel{
 	.hashtag{
+		color:#B8DBEC;
 		text-decoration: underline;
-		color:#ffffff;
 		margin:0;
 		font-size: 2em;
 		text-shadow: 2px 2px 20px #080808;
@@ -201,7 +206,8 @@ ul li a {
 		margin:15px 0 0 0;
 	}
 	h3{
-		text-decoration: underline;
+		font-weight: bold;
+    color: #000000;
 	}
 	p, em{
 		font-family: 'Didact Gothic', sans-serif;
@@ -233,7 +239,7 @@ ul li a {
 		text-decoration: underline;
 	}
 	a{
-		color: #fff;
+		color: #B8DBEC;
     text-decoration: underline;
     font-size: 1.2em;
     font-family: 'Didact Gothic', sans-serif;
@@ -490,12 +496,12 @@ ul li a {
 	}
 	#section2{
 		i.fa.fa-map-marker{
-	    margin-right: -3.5%;
+	    margin-right: -6.5%;
 	    font-size: 4em;
 	  }
 		a{
 			display: inline-block;
-			width:60%;
+			width:50%;
 		}
 	}
 }
