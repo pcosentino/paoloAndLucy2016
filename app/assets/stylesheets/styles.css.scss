@@ -19,9 +19,11 @@ body{
 	width: 100%;
 	ul{
 		li{
+			text-decoration: underline;
 			list-style: none;
 			display: inline-block;
 			font-size: 1.8em;
+			padding:0;
 		}
 		.logo{
 			background:asset-data-url("pl-logo.png") no-repeat;
@@ -196,7 +198,7 @@ ul li a {
 	}
 	h1{
 		font-size: 3em;
-		margin:0;
+		margin:15px 0 0 0;
 	}
 	h3{
 		text-decoration: underline;
@@ -221,7 +223,7 @@ ul li a {
 	padding:2em 0;
 	color:#ffffff;
 	h1{
-		margin-top:0em;
+		margin-top:15px;
 		margin-bottom:1em;
 	}
 	p{
@@ -251,7 +253,7 @@ ul li a {
 	background:asset-data-url("notebook.png") repeat;
 	padding:2em 0;
 	h1{
-		margin-top:0em;
+		margin-top:15px;
 		margin-bottom:1em;
 	}
 	h2{
@@ -319,7 +321,7 @@ ul li a {
 	padding:2em 0;
 	color:#ffffff;
 	h1{
-		margin-top:0em;
+		margin-top:15px;
 		margin-bottom:1em;
 
 	}
