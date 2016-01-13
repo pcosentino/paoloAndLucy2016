@@ -33,8 +33,8 @@ $(document).ready(function() {
 		$(this).carousel('next');  
 	}); 
 
-	$('#nav-icon3').click(function(){
-		$(this).toggleClass('open');
+	$('#nav-icon3, .nav-section1, .nav-section2, .nav-section3, .nav-section4').click(function(){
+		$('#nav-icon3').toggleClass('open');
 	});
 
 
