@@ -1,3 +1,4 @@
+// RAILS_ENV=production bundle exec rake assets:precompile
 body{
 	font-family:'Amatic SC', sans-serif;
 	text-align: center;
@@ -10,7 +11,6 @@ body{
 	float: none;
   margin: 0 auto;
 }
-a{color:red;}
 //////////////// NAVIGATION ////////////////
 #navigation{
 	position: fixed;
@@ -24,14 +24,6 @@ a{color:red;}
 			display: inline-block;
 			font-size: 1.8em;
 			padding:0;
-		}
-		.logo{
-			background:asset-data-url("pl-logo.png") no-repeat;
-			height: 196px;
-			top:.5em; 
-			// display: inline-block;
-			// width: 196px;
-			// position: fixed;
 		}
 	}
 }
@@ -462,7 +454,20 @@ ul li a {
 		height: 200px;
 	}
 }
-
+@media screen and (max-width: 860px) {
+	#myCarousel{
+		.carousel-inner{
+			.item{
+				width: 100%;
+		  	height: 520px;
+		  	background-attachment:scroll;
+		  }
+			.slide1{
+			  background:asset-data-url("slide1med1.jpg") no-repeat;
+			}
+		}
+	}
+}
 @media screen and (max-width: 768px) {
 	#myCarousel{
 		.carousel-inner{
@@ -575,30 +580,27 @@ ul li a {
 	  }
 		a{
 			display: inline-block;
-			width:50%;
+			width:52%;
 		}
 	}
 }
-@media screen and (max-width: 320px) {
-	#section3{
-		#bridesCarousel{
-			width:100%;
-			.item{
-				padding:1.5em 0 0 0;
-				height: 710px;
-			}
+@media screen and (max-width: 375px) {
+
+	#myCarousel{
+		.carousel-indicators{
+			bottom:25px;
 		}
-	
-		#groomsCarousel{
-			width:100%;
-			.item{
-				padding:1.5em 0 0 0;
-				height: 710px;
+		.carousel-inner{
+			.slide1{
+				background:asset-data-url("slide1med1.jpg") -370px 20px no-repeat;
 			}
+		}	
+	}
+	#section2{
+		a{
+			width:55%;
 		}
 	}
-}
-@media screen and (max-width: 380px) {
 	#section3{
 		#bridesCarousel{
 			.carousel-indicators{
@@ -608,7 +610,6 @@ ul li a {
 
 			}
 		}
-	
 		#groomsCarousel{
 			.item{
 
@@ -616,7 +617,30 @@ ul li a {
 		}
 	}
 }
-
+@media screen and (max-width: 320px) {
+	#section2{
+		a{
+			width:65%;
+		}
+	}
+	#section3{
+		#bridesCarousel{
+			width:100%;
+			.item{
+				padding:1.5em 0 0 0;
+				height: 710px;
+			}
+		}
+	
+		#groomsCarousel{
+			width:100%;
+			.item{
+				padding:1.5em 0 0 0;
+				height: 710px;
+			}
+		}
+	}
+}
 
 
 
