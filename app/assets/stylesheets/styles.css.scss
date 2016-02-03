@@ -1,3 +1,4 @@
+$blue: #B8DBEC;
 // RAILS_ENV=production bundle exec rake assets:precompile
 body{
 	font-family:'Amatic SC', sans-serif;
@@ -5,6 +6,11 @@ body{
 	p{
 		font-family: 'Didact Gothic', sans-serif;
     font-size: 1.2em;
+  }
+  a{
+  	color:$blue;
+  	cursor:pointer;
+  	text-decoration: underline;
   }
 }
 .col-centered{
@@ -49,16 +55,16 @@ body{
 	padding: 30px 25px 33px 25px;
 }
 .navbar-inverse .navbar-nav > li > a:focus{
-	color:#B8DBEC;
+	color:$blue;
 }
 .navbar-inverse .navbar-nav li a:hover {
 	background-color: #999999;
 	transition: 0.2s all linear;
 	height: 100%;
-	color:#B8DBEC;
+	color:$blue;
 }
 .navbar-inverse .navbar-toggle .icon-bar{
-	background-color:#B8DBEC;
+	background-color:$blue;
 }
 
 #nav-icon3{
@@ -224,7 +230,7 @@ ul li a {
 #playButton, #pauseButton{display:none;}
 #myCarousel{
 	.hashtag{
-		color:#B8DBEC;
+		color:$blue;
 		text-decoration: underline;
 		margin:0;
 		font-size: 2em;
@@ -305,16 +311,16 @@ ul li a {
 		text-decoration: underline;
 	}
 	a{
-		color: #B8DBEC;
+		color: $blue;
     text-decoration: underline;
     font-size: 1.2em;
     font-family: 'Didact Gothic', sans-serif;
     &:hover{
-    	color:#B8DBEC;
+    	color:$blue;
     }
 	}
 	i{
-		color:#B8DBEC;
+		color:$blue;
 		margin-right:1%;
 		font-size: 1.2em;
 	}
@@ -404,8 +410,8 @@ ul li a {
 		height: 109px;
 	}
 	img{
-		border-top:5px solid #B8DBEC;
-		border-bottom:5px solid #B8DBEC;
+		border-top:5px solid $blue;
+		border-bottom:5px solid $blue;
 		padding:10px 0;
 	}
 	#bbb{
@@ -414,6 +420,33 @@ ul li a {
 }
 
 
+
+#footer{
+	background:asset-data-url("footer_bg.jpg") no-repeat;
+	padding-top:2.5em;
+  width: 100vw;
+  height: 88vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-shadow: 3px 2px 10px #000000;
+	p{
+		margin-top:1.5em;
+		margin-bottom:0;
+		color:#fff;
+	}
+	a{
+		font-size: 2em;
+	}
+	#credits{
+		width:100%;
+		h1{
+			color:#ffffff;
+			bottom: -4370px;
+	    position: absolute;
+		}	
+	}
+}
 
 
 ////////////// MEDIA QUERIES //////////////
@@ -431,6 +464,10 @@ ul li a {
 		img{
 			max-width: 30%;
 		}
+	}
+	#footer{
+		background-position: 65% 0;
+		height: 80vh;
 	}
 }
 @media screen and (max-width: 1100px) {
@@ -477,6 +514,7 @@ ul li a {
 		width: 200px;
 		height: 200px;
 	}
+
 }
 @media screen and (max-width: 860px) {
 	#myCarousel{
@@ -490,6 +528,10 @@ ul li a {
 			  background:asset-data-url("slide1med1.jpg") no-repeat;
 			}
 		}
+	}
+	#footer{
+		width:100%;
+		background-attachment:scroll; 
 	}
 }
 @media screen and (max-width: 768px) {
@@ -564,11 +606,16 @@ ul li a {
 			border-bottom:none;
 		}
 		#williams{
-			border-bottom:5px solid #B8DBEC;
+			border-bottom:5px solid $blue;
 		}
 		#bbb{
 			margin: 0;
 		}
+	}
+	#footer{
+		width:100%;
+		background-attachment:scroll;
+		background-position: 50% 0;
 	}
 }
 @media screen and (max-width: 500px) {
@@ -597,6 +644,12 @@ ul li a {
 				padding:1.5em 0;
 				height: 680px;
 			}
+		}
+	}
+	#footer{
+		a{
+			display: block;
+			margin-bottom: 1%;
 		}
 	}
 }
@@ -709,7 +762,7 @@ ul li a {
 	}
 	#section4{
 		img{
-			border-top:5px solid #B8DBEC;
+			border-top:5px solid $blue;
 			margin:2% 0;
 			max-width: 90%;
 		}
@@ -717,6 +770,7 @@ ul li a {
 			margin:0;
 		}
 	}
+
 }
 
 
