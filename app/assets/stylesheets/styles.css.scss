@@ -467,7 +467,6 @@ ul li a {
 	}
 	#footer{
 		background-position: 65% 0;
-		height: 80vh;
 	}
 }
 @media screen and (max-width: 1100px) {
@@ -615,7 +614,7 @@ ul li a {
 	#footer{
 		width:100%;
 		background-attachment:scroll;
-		background-position: 50% 0;
+		background-position: 45% 0;
 	}
 }
 @media screen and (max-width: 500px) {
@@ -647,6 +646,7 @@ ul li a {
 		}
 	}
 	#footer{
+		height:600px;
 		a{
 			display: block;
 			margin-bottom: 1%;
