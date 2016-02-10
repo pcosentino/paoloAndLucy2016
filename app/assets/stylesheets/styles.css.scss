@@ -32,6 +32,12 @@ body{
 			padding:0;
 		}
 	}
+	.home_button a{
+		position: absolute;
+    top: 40px;
+    left: 45%;
+    z-index: 1;
+	}
 }
 .navbar, .navbar-inverse {
 	border-radius: 0;
@@ -355,7 +361,7 @@ ul li a {
 	}
 	#bridesCarousel{
 		.item{
-			height:400px;
+			height:450px;
 			padding:1.5em 1.5em;
 			img{
 				height:50%;
@@ -374,7 +380,7 @@ ul li a {
 	}
 	#groomsCarousel{
 		.item{
-			height:400px;
+			height:450px;
 			padding:1.5em 1.5em;
 			img{
 				height:50%;
@@ -668,12 +674,12 @@ ul li a {
 	}
 	#section2{
 		i.fa.fa-map-marker{
-	    margin-right: -6.5%;
+	    margin-right: -5%;
 	    font-size: 4em;
 	  }
 		a{
 			display: inline-block;
-			width:52%;
+			width:49%;
 		}
 	}
 }
