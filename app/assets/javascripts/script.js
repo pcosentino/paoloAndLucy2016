@@ -52,7 +52,7 @@ $(document).ready(function() {
 	    //Animate
 	    $('html, body').stop().animate({
 	        scrollTop: $( $(this).attr('href') ).offset().top - 50
-	    }, 400);
+	    }, 2000);
 	    return false;
 
 	  });
