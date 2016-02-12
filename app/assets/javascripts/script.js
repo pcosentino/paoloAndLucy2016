@@ -52,7 +52,7 @@ $(document).ready(function() {
 	    //Animate
 	    $('html, body').stop().animate({
 	        scrollTop: $( $(this).attr('href') ).offset().top - 50
-	    }, 2000);
+	    }, 1500);
 	    return false;
 
 	  });
@@ -156,5 +156,9 @@ onload=function(){
   cdown.add(new Date('09/3/2016'), "countbox1");
 };
 
+
+  $(document).ready(function() {
+    $(".fancybox").fancybox();
+  });
 
 });

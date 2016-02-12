@@ -377,6 +377,31 @@ ul li a {
 			-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 			}
 		}
+		#angela{
+			-ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Safari */
+    transform: rotate(-10deg); /* Standard syntax */
+		}
+		#irma{
+			-ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg); /* Standard syntax */
+		}
+		#amber{
+			-ms-transform: rotate(8deg); /* IE 9 */
+    -webkit-transform: rotate(8deg); /* Safari */
+    transform: rotate(8deg); /* Standard syntax */
+		}
+		#gina{
+			-ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Safari */
+    transform: rotate(-10deg); /* Standard syntax */
+		}
+		#cristina{
+			-ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Safari */
+    transform: rotate(10deg); /* Standard syntax */
+		}
 	}
 	#groomsCarousel{
 		.item{
