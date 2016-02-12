@@ -32,12 +32,15 @@ body{
 			padding:0;
 		}
 	}
-	// .home_button a{
-	// 	position: absolute;
- //    top: 40px;
- //    left: 45%;
- //    z-index: 1;
-	// }
+	.home_button a{
+		background:asset-data-url("logoframecolor.png") no-repeat;
+		width:125px;
+		height: 105px;
+		position: absolute;
+    top: 31px;
+    left: 45%;
+    z-index: 1;
+	}
 }
 .navbar, .navbar-inverse {
 	border-radius: 0;
@@ -274,7 +277,7 @@ ul li a {
 //////////////// OUR STORY ////////////////
 #section1{
 	background:asset-data-url("notebook.png") repeat;
-	padding:2em 0;
+	padding:5em 0;
 	.col-centered{
 		float: none;
     margin: 0 auto;
@@ -299,12 +302,20 @@ ul li a {
 	i.fa.fa-music{
 		margin: .9% .5%;
 	}
+	#single_1 img{
+		margin:2% .5% 0 .5%;
+		border-radius:50%;
+		-moz-border-radius: 50%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+	}
 }
 
 //////////////// WEDDING INFO ////////////////
 #section2{
 	background:asset-data-url("grey_wash_wall.png") repeat;
-	padding:2em 0;
+	padding:5em 0;
 	color:#ffffff;
 	h1{
 		margin-top:15px;
@@ -335,7 +346,7 @@ ul li a {
 //////////////// THE CREW ////////////////
 #section3{
 	background:asset-data-url("notebook.png") repeat;
-	padding:2em 0;
+	padding:5em 0;
 	h1{
 		margin-top:15px;
 		margin-bottom:1em;
@@ -427,7 +438,7 @@ ul li a {
 //////////////// REGISTRY ////////////////
 #section4{
 	background:asset-data-url("grey_wash_wall.png") repeat;
-	padding:2em 0;
+	padding:5em 0;
 	color:#ffffff;
 	h1{
 		margin-top:15px;
@@ -501,6 +512,9 @@ ul li a {
 	}
 }	
 @media screen and (max-width: 1200px) {
+	#navigation .home_button a{
+		left:44.5%;
+	}
 	#section4{
 		#bbb{
 			margin:0 1%;

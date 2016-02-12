@@ -12,7 +12,9 @@
 			#bs-example-navbar-collapse-1.collapse.navbar-collapse
 				.row
 					%ul.nav.navbar-nav.col-sm-12
-						%li.col-xs-12.hidden-sm.hidden-md.hidden-lg.home_button
+						%li.hidden-xs.hidden-sm.col-md-12.home_button
+							%a#link1.nav-section0.nav-li{:href => "#home"} 
+						%li.col-xs-12.hidden-sm.hidden-md.hidden-lg.home_mobile
 							%a#link1.nav-section0.nav-li{:href => "#home"} Home
 						%li.col-xs-12.col-sm-3
 							%a#link1.nav-section1.nav-li{:href => "#section1"} Our Story
