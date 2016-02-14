@@ -49,7 +49,7 @@ h1{
 	}
 }
 .navbar-nav {
-    margin: 7.5px 0px;
+  margin-top:-1px;
 }
 .navbar, .navbar-inverse {
 	border-radius: 0;
@@ -611,6 +611,9 @@ ul li a {
 	}
 }
 @media screen and (max-width: 768px) {
+	.navbar-nav {
+    margin: 7.5px 0px;
+	}
 	#myCarousel{
 		.carousel-inner{
 			.item{
