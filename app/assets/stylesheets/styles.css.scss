@@ -44,12 +44,13 @@ h1{
 		height: 105px;
 		position: absolute;
     top: 31px;
-    left: 45.5%;
+    left: 44.93%;
     z-index: 1;
 	}
 }
 .navbar-nav {
   margin-top:-1px;
+  padding-right:0;
 }
 .navbar, .navbar-inverse {
 	border-radius: 0;
@@ -317,7 +318,10 @@ ul li a {
 	i.fa.fa-music{
 		margin: .9% .5%;
 	}
-	#single_1 img{
+	#engagement_pics{
+		padding-top:2em;
+	}
+	.single_1 img{
 		margin:2% .5% 0 .5%;
 		border-radius:50%;
 		-moz-border-radius: 50%;
@@ -679,6 +683,12 @@ ul li a {
 	}
 }
 @media screen and (max-width: 627px) {
+	#engagement_pics{
+		width:60%;
+		.single_1 img{
+			margin:.5em;
+		}
+	}
 	#section4{
 		img{
 			max-width: 100%;
@@ -716,7 +726,12 @@ ul li a {
 			}
 		}	
 	}
-		#section3{
+	#section1{
+		#engagement_pics {
+    	width: 75%;
+		}
+	}
+	#section3{
 			.carousel-indicators{
 				display: none;
 		}
@@ -750,6 +765,9 @@ ul li a {
 		i.fa.fa-music{
 			font-size:3em;
 			margin:0 2.5%;
+		}
+		#engagement_pics {
+    	width: 90%;
 		}
 	}
 	#section2{
@@ -824,6 +842,14 @@ ul li a {
 	}
 }
 @media screen and (max-width: 320px) {
+	#section1{
+		#engagement_pics {
+    	width: 100%;
+    	.single_1 img{
+				margin:.3em;
+			}
+		}
+	}
 	#section2{
 		a{
 			width:65%;
