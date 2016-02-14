@@ -208,39 +208,39 @@ ul li a {
 	  background-position: 0px -20%;	  
 	}
 	.slide2{
-		background:asset-data-url("slide2.jpg") no-repeat;
+		background:asset-data-url("slide02.jpg") no-repeat;
 	  background-position: 0px 90%;	  
 	}
 	.slide3{
-		background:asset-data-url("slide3.jpg") no-repeat;
+		background:asset-data-url("slide03.jpg") no-repeat;
 	  background-position: 0px 60%;	  
 	}
 	.slide4{
-		background:asset-data-url("slide4.jpg") no-repeat;
+		background:asset-data-url("slide04.jpg") no-repeat;
 	  background-position: 0px 85%;	  
 	}
 	.slide5{
-		background:asset-data-url("slide5.jpg") no-repeat;
+		background:asset-data-url("slide05.jpg") no-repeat;
 	  background-position: 0px -10%;	  
 	}
 	.slide6{
-		background:asset-data-url("slide6.jpg") no-repeat;
+		background:asset-data-url("slide06.jpg") no-repeat;
 	  background-position: 0px 80%;	  
 	}
 	.slide7{
-		background:asset-data-url("slide7.jpg") no-repeat;
+		background:asset-data-url("slide07.jpg") no-repeat;
 	  background-position: 0px 60%;	  
 	}
 	.slide8{
-		background:asset-data-url("slide8.jpg") no-repeat;
+		background:asset-data-url("slide08.jpg") no-repeat;
 	  background-position: 0px -20%;	  
 	}
 	.slide9{
-		background:asset-data-url("slide9.jpg") no-repeat;
+		background:asset-data-url("slide09.jpg") no-repeat;
 	  background-position: 0px -20%;	  
 	}
 	.slide10{
-		background:asset-data-url("slide_10.jpg") no-repeat;
+		background:asset-data-url("slide_010.jpg") no-repeat;
 	  background-position: 0px 60%;	  
 	}
 }
@@ -482,7 +482,8 @@ ul li a {
 
 
 #footer{
-	background:asset-data-url("footer_bg.jpg") no-repeat;
+	background:linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ),
+	asset-data-url("footer_bg.jpg") no-repeat;
 	padding-top:2.5em;
   width: 100vw;
   height: 88vh;
@@ -770,34 +771,34 @@ ul li a {
 		}
 		.carousel-inner{
 			.slide1{
-				background:asset-data-url("slide1med1.jpg") -370px 20px no-repeat;
+				background:asset-data-url("slide01med.jpg") -370px 20px no-repeat;
 			}
 			.slide2{
-				background:asset-data-url("slide2med.jpg") -240px 10px no-repeat;
+				background:asset-data-url("slide02med.jpg") -240px 10px no-repeat;
 			}
 			.slide3{
-				background:asset-data-url("slide3med.jpg") -180px 10px no-repeat;
+				background:asset-data-url("slide03med.jpg") -180px 10px no-repeat;
 			}
 			.slide4{
-				background:asset-data-url("slide4med.jpg") -290px 10px no-repeat;
+				background:asset-data-url("slide04med.jpg") -290px 10px no-repeat;
 			}
 			.slide5{
-				background:asset-data-url("slide5med.jpg") -300px 25px no-repeat;
+				background:asset-data-url("slide05med.jpg") -300px 25px no-repeat;
 			}
 			.slide6{
-				background:asset-data-url("slide6med.jpg") -450px 25px no-repeat;
+				background:asset-data-url("slide06med.jpg") -450px 25px no-repeat;
 			}
 			.slide7{
-				background:asset-data-url("slide7med.jpg") -300px 25px no-repeat;
+				background:asset-data-url("slide07med.jpg") -300px 25px no-repeat;
 			}
 			.slide8{
-				background:asset-data-url("slide8med.jpg") -300px 40px no-repeat;
+				background:asset-data-url("slide08med.jpg") -300px 40px no-repeat;
 			}
 			.slide9{
-				background:asset-data-url("slide9med.jpg") -300px 40px no-repeat;
+				background:asset-data-url("slide09med.jpg") -300px 40px no-repeat;
 			}
 			.slide10{
-				background:asset-data-url("slide10med.jpg") -480px 40px no-repeat;
+				background:asset-data-url("slide010med.jpg") -480px 40px no-repeat;
 			}
 		}	
 	}
