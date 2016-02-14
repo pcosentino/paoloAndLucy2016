@@ -17,6 +17,10 @@ body{
 	float: none;
   margin: 0 auto;
 }
+h1{
+	background:asset-data-url("weddingknot.png") no-repeat 50% 45px;
+  padding-bottom: .7em;
+}
 //////////////// NAVIGATION ////////////////
 #navigation{
 	position: fixed;
@@ -26,6 +30,8 @@ body{
 	ul{
 		li{
 			text-decoration: underline;
+			-moz-text-decoration-color: #9d9d9d;
+			text-decoration-color: #9d9d9d; 
 			list-style: none;
 			display: inline-block;
 			font-size: 1.8em;
@@ -38,7 +44,7 @@ body{
 		height: 105px;
 		position: absolute;
     top: 31px;
-    left: 45%;
+    left: 45.5%;
     z-index: 1;
 	}
 }
@@ -71,6 +77,9 @@ body{
 	transition: 0.2s all linear;
 	height: 100%;
 	color:$blue;
+	text-decoration: underline;
+	-moz-text-decoration-color: $blue;
+	text-decoration-color: $blue; 
 }
 .navbar-inverse .navbar-toggle .icon-bar{
 	background-color:$blue;
@@ -272,6 +281,9 @@ ul li a {
   font-size:3em;
   font-weight:bold;
   padding:.5em 0;
+  h2 {
+    font-size: 1em;
+	}
 }
 
 //////////////// OUR STORY ////////////////
@@ -432,6 +444,11 @@ ul li a {
 			-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 			}
 		}
+		#peter{
+			-ms-transform: rotate(13deg); /* IE 9 */
+    	-webkit-transform: rotate(13deg); /* Safari */
+    	transform: rotate(13deg); /* Standard syntax */
+    }
 	}
 }
 
