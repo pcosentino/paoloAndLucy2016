@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 // CAROUSEL INTERVAL
   $('#myCarousel').carousel({
-    interval:false,
+    interval:5000,
   });
   $('#bridesCarousel').carousel({
     interval:false,
