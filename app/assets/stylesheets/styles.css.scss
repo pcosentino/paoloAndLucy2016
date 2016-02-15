@@ -324,6 +324,13 @@ ul li a {
 		padding-top:2em;
 	}
 	.single_1 img{
+		
+	}
+	.thumbnail{
+		border:none;
+		width:50px;
+		height:50px;
+		display: inline-block;
 		margin:2% .5% 0 .5%;
 		border-radius:50%;
 		-moz-border-radius: 50%;
@@ -331,6 +338,67 @@ ul li a {
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 	}
+	.chris1{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 0;
+	}
+	.chris2{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -50px;
+	}
+	.chris3{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -100px;
+	}
+	.chris4{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -150px;
+	}
+	.chris5{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -200px;
+	}
+	.chris6{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -250px;
+	}
+	.chris7{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -300px;
+	}
+	.chris8{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -350px;
+	}
+	.chris9{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -400px;
+	}
+	.chris10{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -450px;
+	}
+	.kristy1{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -500px;
+	}
+	.kristy2{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -550px;
+	}
+	.kristy3{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -600px;
+	}
+	.kristy4{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -650px;
+	}
+	.kristy5{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -700px;
+	}
+	.kristy6{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -750px;
+	}
+	.kristy7{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -800px;
+	}
+	.kristy8{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -850px;
+	}
+	.kristy9{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -900px;
+	}
+	.kristy10{
+		background:asset-data-url("engagement_pics.jpg") repeat 0 -950px;
+	}
+
 }
 
 //////////////// WEDDING INFO ////////////////
