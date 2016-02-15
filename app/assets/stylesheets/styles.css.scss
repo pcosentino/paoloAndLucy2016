@@ -18,8 +18,10 @@ body{
   margin: 0 auto;
 }
 h1{
-	background:asset-data-url("weddingknot.png") no-repeat 50% 45px;
-  padding-bottom: .7em;
+  padding-bottom: .2em;
+}
+img.wedding_knot {
+  width: 15em;
 }
 //////////////// NAVIGATION ////////////////
 #navigation{
@@ -39,7 +41,7 @@ h1{
 		}
 	}
 	.home_button a{
-		background:asset-data-url("logoframecolor.png") no-repeat;
+		background:asset-data-url("ourlogo.svg") no-repeat;
 		width:125px;
 		height: 105px;
 		position: absolute;
@@ -338,7 +340,7 @@ ul li a {
 	color:#ffffff;
 	h1{
 		margin-top:15px;
-		margin-bottom:1em;
+		margin-bottom:0;
 	}
 	p{
 		margin:0;
@@ -368,7 +370,7 @@ ul li a {
 	padding:5em 0;
 	h1{
 		margin-top:15px;
-		margin-bottom:1em;
+		margin-bottom:0;
 	}
 	h2{
 		margin-bottom:0;
@@ -464,7 +466,7 @@ ul li a {
 	color:#ffffff;
 	h1{
 		margin-top:15px;
-		margin-bottom:1em;
+		margin-bottom:0em;
 	}
 	p{
 		margin-bottom:5%;
@@ -477,6 +479,10 @@ ul li a {
 		border-top:5px solid $blue;
 		border-bottom:5px solid $blue;
 		padding:10px 0;
+	}
+	img.wedding_knot{
+		padding-top:0;
+		border: none;
 	}
 	#bbb{
 		margin:0 5%;
