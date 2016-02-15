@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'newrelic_rpm'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 gem 'rails', '4.1.6'
