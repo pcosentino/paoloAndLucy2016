@@ -542,32 +542,18 @@ ul li a {
 	a{
 		width:324px;
 		height: 109px;
-		text-decoration: none;
 	}
 	img{
-
+		border-top:5px solid $blue;
+		border-bottom:5px solid $blue;
+		padding:10px 0;
 	}
 	img.wedding_knot{
 		padding-top:0;
 		border: none;
 	}
-	.store{
-		width:324px;
-		height:109px;
-		display: inline-block;
-		border-top:5px solid $blue;
-		border-bottom:5px solid $blue;
-		padding:10px 0;
-	}
-	#macys{
-	background:asset-data-url("registry_logos.jpg") no-repeat 0 0;
-	}
 	#bbb{
-	background:asset-data-url("registry_logos.jpg") no-repeat 0 -112px;
 		margin:0 5%;
-	}
-	#williams{
-	background:asset-data-url("registry_logos.jpg") no-repeat 0 -216px;
 	}
 }
 
