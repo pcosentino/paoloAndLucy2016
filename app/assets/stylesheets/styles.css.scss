@@ -46,13 +46,14 @@ img.wedding_knot {
 		height: 105px;
 		position: absolute;
     top: 31px;
-    left: 44.93%;
+    left: 44.54%;
     z-index: 1;
 	}
 }
 .navbar-nav {
   margin-top:-1px;
   padding-right:0;
+  margin-left:5px;
 }
 .navbar, .navbar-inverse {
 	border-radius: 0;
@@ -476,6 +477,7 @@ ul li a {
 			-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 			}
 		}
+
 		#angela{
 			-ms-transform: rotate(-10deg); /* IE 9 */
     -webkit-transform: rotate(-10deg); /* Safari */
@@ -622,6 +624,11 @@ ul li a {
 	}
 	#footer{
 		background-position: 65% 0;
+	}
+}
+@media screen and (max-width: 1199px) {
+	#navigation .home_button a{
+		left:43.5%;
 	}
 }
 @media screen and (max-width: 1100px) {
