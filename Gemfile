@@ -1,3 +1,4 @@
+ruby "2.2.4"
 source 'https://rubygems.org'
 gem 'newrelic_rpm'
 gem 'bootstrap-sass'
