@@ -2,7 +2,7 @@
 	%nav.navbar.navbar-inverse.navbar-static-top{:role => "navigation"}
 		.container
 			.navbar-header
-				%button#nav-icon3.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+				%button#nav-icon3.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button", :class => "hamburger-menu-button"}
 					/ %span.sr-only Toggle navigation
 					%span.icon-bar
 					%span.icon-bar
@@ -13,14 +13,14 @@
 				.row
 					%ul.nav.navbar-nav.col-sm-12
 						%li.hidden-xs.hidden-sm.col-md-12.home_button
-							%a#link1.nav-section0.nav-li{:href => "#home"} 
+							%a#link1.nav-section0.nav-li{:href => "#home", :class => "desktop-home-button"} 
 						%li.col-xs-12.hidden-sm.hidden-md.hidden-lg.home_mobile
-							%a#link1.nav-section0.nav-li{:href => "#home"} Home
+							%a#link1.nav-section0.nav-li{:href => "#home", :class => "mobile-home-button"} Home
 						%li.col-xs-12.col-sm-3
-							%a#link1.nav-section1.nav-li{:href => "#section1"} Our Story
+							%a#link1.nav-section1.nav-li{:href => "#section1", :class => "our-story-button"} Our Story
 						%li.col-xs-12.col-sm-3
-							%a#link2.nav-section2.nav-li{:href => "#section2"} Wedding Info
+							%a#link2.nav-section2.nav-li{:href => "#section2", :class => "wedding-info-button"} Wedding Info
 						%li.col-xs-12.col-sm-3
-							%a#link3.nav-section3.nav-li{:href => "#section3"} Bridal Crew
+							%a#link3.nav-section3.nav-li{:href => "#section3", :class => "bridal-crew-button"} Bridal Crew
 						%li.col-xs-12.col-sm-3
-							%a#link3.nav-section4.nav-li{:href => "#section4"} Registry
+							%a#link3.nav-section4.nav-li{:href => "#section4", :class => "registry-button"} Registry
