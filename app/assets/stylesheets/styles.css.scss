@@ -576,6 +576,59 @@ ul li a{
 	}
 
 }
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+	#myCarousel{
+		.carousel-inner{
+			.item{
+				width: 100%;
+		  	height: 520px;
+		  	background-attachment:scroll;
+		  }
+			.slide1{
+			  background-position: 0px -20%;	  
+			}
+			.slide2{
+			  background-position: 0px 90%;	  
+			}
+			.slide3{
+			  background-position: 0px 60%;	  
+			}
+			.slide4{
+			  background-position: 0px 25%;	  
+			}
+			.slide5{
+			  background-position: 0px -20%;	  
+			}
+			.slide6{
+			  background-position: 0px 80%;	  
+			}
+			.slide7{
+			  background-position: 0px 45%;	  
+			}
+			.slide8{
+			  background-position: 0px -50%;	  
+			}
+			.slide9{
+			  background-position: 0px -60%;	  
+			}
+			.slide10{
+			  background-position: 0px 60%;	  
+			}
+		}
+		.hashtag{
+			color:$blue;
+			text-decoration: underline;
+			margin:0;
+			font-size: 2em;
+			text-shadow: 2px 2px 0px #080808;
+		}
+	}
+
+	#footer{
+		width:100%;
+		background-attachment:scroll; 
+	}
+}
 @media screen and (max-width: 860px) {
 	#myCarousel{
 		.carousel-inner{
